@@ -36,16 +36,10 @@
   a{
     text-decoration: none;
     color: #f1f1f1;
-    text-transform: uppercase;
-    font-family: "Lato";
   }
   h3, h4{
     font-family: "Lato";
     font-weight: 600;
     color: #f1f1f1;
     text-transform: uppercase;
-  }
-  p{
-    font-family: "Eurostile";
-    font-weight: 300;
   }

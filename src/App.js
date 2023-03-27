@@ -1,9 +1,13 @@
+import Section from './components/Section'
 import './globals.css'
+import ImageWithText from './sections/ImageWithText'
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Section name="image-with-text">
+        <ImageWithText />
+      </Section>
+    </div>
   )
 }
