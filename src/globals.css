@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-family: "Lato";
+  }
+  h3, h4{
+    font-family: "Lato";
+    font-weight: 600;
+    color: #f1f1f1;
+    text-transform: uppercase;
+  }
+  p{
+    font-family: "Eurostile";
+    font-weight: 300;
+  }
