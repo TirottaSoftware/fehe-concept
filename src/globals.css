@@ -9,26 +9,32 @@
     font-style: normal;
   }
   @font-face {
-    font-family: 'Lato';
-    src: url('./assets/fonts/Lato-Light.ttf');
-    font-weight: 300;
+    font-family: 'Thicccboi';
+    src: url('./assets/fonts/THICCCBOI-Regular.ttf');
+    font-weight: 400;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Lato';
-    src: url('./assets/fonts/Lato-Bold.ttf');
+    font-family: 'Thicccboi';
+    src: url('./assets/fonts/THICCCBOI-Medium.ttf');
     font-weight: 600;
     font-style: normal;
   }
 
   *{
     margin: 0;
+    font-family: "Thicccboi";
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    color: #f1f1f1;
   }
   html{
     scroll-behavior: smooth;
+  }
+  body{
+    background: #101010;
+    overflow-x: hidden;
   }
   ul{
     list-style: none;
@@ -37,9 +43,22 @@
     text-decoration: none;
     color: #f1f1f1;
   }
-  h3, h4{
+  p{
     font-family: "Lato";
+  }
+  h3, h4{
     font-weight: 600;
     color: #f1f1f1;
     text-transform: uppercase;
+  }
+
+  .text-split, .text-reveal{
+    background:linear-gradient(to right,rgb(255, 255, 255) 50%,rgb(37, 37, 37) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.2;
+    /* outline: 6px dotted teal; */
   }

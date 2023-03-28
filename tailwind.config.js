@@ -6,18 +6,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "black": "#191919",
+        "black": "#252525",
         "white": "#F1F1F1",
-        "color-text-dark": "#646464",
-        "color-text-light": "#BEBEBE",
+        "body": "#101010",
+        "color-text": "#A0A0AB",
         "color-cta": "#353331",
       },
       fontFamily: {
-        "lato": ["Lato"]
+        "lato": ["Lato"],
+        "tb": ["Thicccboi"]
       },
       backgroundImage: {
-        "hero": "url('../assets/img/hero.png')",
-        "about": "url('../assets/img/about-01.png')"
+        "featured": "url('./assets/img/featured.png')",
       }
     },
   },
